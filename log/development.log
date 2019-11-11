@@ -1,0 +1,1157 @@
+Started GET "/" for 127.0.0.1 at 2019-10-30 18:39:47 +0530
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.9ms | Allocations: 416)
+Completed 200 OK in 19ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 2225)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2019-10-30 18:39:47 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/show" for 127.0.0.1 at 2019-10-30 18:44:04 +0530
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/show"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/api/show" for 127.0.0.1 at 2019-10-30 18:44:16 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/api/show"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/book" for 127.0.0.1 at 2019-10-30 18:52:05 +0530
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by BookController#index as HTML
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 170)
+
+
+Started GET "/book" for 127.0.0.1 at 2019-10-30 18:58:38 +0530
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.0) lib/active_record/migration.rb:587:in `check_pending!'
+activerecord (6.0.0) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.0) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (7.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (8.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateTheaters (20191030132407)
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateTheaters (20191030132407)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "theaters" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "address" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191030132407"]]
+  [1m[35m (8.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.8ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-10-30 13:34:54.157883"], ["updated_at", "2019-10-30 13:34:54.157883"]]
+  [1m[35m (6.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/book" for 127.0.0.1 at 2019-10-30 19:05:21 +0530
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+  [1m[36mTheater Load (0.1ms)[0m  [1m[34mSELECT "theaters".* FROM "theaters" ORDER BY "theaters"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:4:in `index'
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.9ms | Allocations: 2309)
+
+
+  
+NoMethodError (undefined method `name=' for nil:NilClass):
+  
+app/controllers/book_controller.rb:5:in `index'
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/book" for 127.0.0.1 at 2019-10-30 19:08:53 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by BookController#index as HTML
+  [1m[36mTheater Load (0.1ms)[0m  [1m[34mSELECT "theaters".* FROM "theaters" ORDER BY "theaters"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:4:in `index'
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 1.1ms | Allocations: 2334)
+
+
+  
+NoMethodError (undefined method `name' for nil:NilClass):
+  
+app/controllers/book_controller.rb:5:in `index'
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTheater Create (0.8ms)[0m  [1m[32mINSERT INTO "theaters" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Test Theater"], ["created_at", "2019-10-30 13:40:25.947854"], ["updated_at", "2019-10-30 13:40:25.947854"]]
+  [1m[35m (7.3ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/book" for 127.0.0.1 at 2019-10-30 19:10:41 +0530
+Processing by BookController#index as HTML
+  [1m[36mTheater Load (0.2ms)[0m  [1m[34mSELECT "theaters".* FROM "theaters" ORDER BY "theaters"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 4274)
+
+
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateMovies (20191030134136)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "movies" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191030134136"]]
+  [1m[35m (7.4ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateShows (20191030134542)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "shows" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "show_time" datetime, "theater_id" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_shows_on_theater_id" ON "shows" ("theater_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191030134542"]]
+  [1m[35m (7.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTheater Create (0.8ms)[0m  [1m[32mINSERT INTO "theaters" ("name", "description", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Theater"], ["description", "Test Description"], ["address", "Test Address"], ["created_at", "2019-10-30 13:55:38.094920"], ["updated_at", "2019-10-30 13:55:38.094920"]]
+  [1m[35m (7.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMovie Create (0.7ms)[0m  [1m[32mINSERT INTO "movies" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Test Movie"], ["description", "Test Description"], ["created_at", "2019-10-30 13:55:38.110395"], ["updated_at", "2019-10-30 13:55:38.110395"]]
+  [1m[35m (6.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTheater Create (0.8ms)[0m  [1m[32mINSERT INTO "theaters" ("name", "description", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Theater"], ["description", "Test Description"], ["address", "Test Address"], ["created_at", "2019-10-30 14:00:34.189892"], ["updated_at", "2019-10-30 14:00:34.189892"]]
+  [1m[35m (6.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTheater Create (0.7ms)[0m  [1m[32mINSERT INTO "theaters" ("name", "description", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Theater"], ["description", "Test Description"], ["address", "Test Address"], ["created_at", "2019-10-30 14:06:16.749777"], ["updated_at", "2019-10-30 14:06:16.749777"]]
+  [1m[35m (6.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTheater Create (0.9ms)[0m  [1m[32mINSERT INTO "theaters" ("name", "description", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Theater"], ["description", "Test Description"], ["address", "Test Address"], ["created_at", "2019-10-30 14:06:58.603243"], ["updated_at", "2019-10-30 14:06:58.603243"]]
+  [1m[35m (7.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTheater Create (0.7ms)[0m  [1m[32mINSERT INTO "theaters" ("name", "description", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Theater"], ["description", "Test Description"], ["address", "Test Address"], ["created_at", "2019-10-30 14:08:47.950289"], ["updated_at", "2019-10-30 14:08:47.950289"]]
+  [1m[35m (7.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mShow Create (0.7ms)[0m  [1m[32mINSERT INTO "shows" ("name", "show_time", "theater_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Show"], ["show_time", "2019-10-30 14:08:47.975878"], ["theater_id", 6], ["created_at", "2019-10-30 14:08:47.988413"], ["updated_at", "2019-10-30 14:08:47.988413"]]
+  [1m[35m (8.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMovie Create (0.8ms)[0m  [1m[32mINSERT INTO "movies" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Test Movie"], ["description", "Test Description"], ["created_at", "2019-10-30 14:08:48.004069"], ["updated_at", "2019-10-30 14:08:48.004069"]]
+  [1m[35m (6.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateSeats (20191030141101)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "seats" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "row" varchar, "seat_number" decimal, "price" decimal, "class" varchar, "show_id" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_seats_on_show_id" ON "seats" ("show_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191030141101"]]
+  [1m[35m (7.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTheater Create (0.8ms)[0m  [1m[32mINSERT INTO "theaters" ("name", "description", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Theater"], ["description", "Test Description"], ["address", "Test Address"], ["created_at", "2019-10-30 14:18:35.079669"], ["updated_at", "2019-10-30 14:18:35.079669"]]
+  [1m[35m (6.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mShow Create (0.7ms)[0m  [1m[32mINSERT INTO "shows" ("name", "show_time", "theater_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Show"], ["show_time", "2019-10-30 14:18:35.103586"], ["theater_id", 7], ["created_at", "2019-10-30 14:18:35.116095"], ["updated_at", "2019-10-30 14:18:35.116095"]]
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (7.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateTheaters (20191030132407)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "theaters" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "address" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191030132407"]]
+  [1m[35m (8.1ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateMovies (20191030134136)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "movies" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191030134136"]]
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateShows (20191030134542)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "shows" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "show_time" datetime, "theater_id" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_shows_on_theater_id" ON "shows" ("theater_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191030134542"]]
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateSeats (20191030141101)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "seats" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "row" varchar, "seat_number" decimal, "price" decimal, "_class" varchar, "status" varchar, "show_id" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_seats_on_show_id" ON "seats" ("show_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191030141101"]]
+  [1m[35m (6.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTheater Create (0.8ms)[0m  [1m[32mINSERT INTO "theaters" ("name", "description", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Theater"], ["description", "Test Description"], ["address", "Test Address"], ["created_at", "2019-10-30 14:34:05.947046"], ["updated_at", "2019-10-30 14:34:05.947046"]]
+  [1m[35m (6.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mShow Create (0.7ms)[0m  [1m[32mINSERT INTO "shows" ("name", "show_time", "theater_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Show"], ["show_time", "2019-10-30 14:34:05.970852"], ["theater_id", 1], ["created_at", "2019-10-30 14:34:05.983609"], ["updated_at", "2019-10-30 14:34:05.983609"]]
+  [1m[35m (7.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSeat Create (0.8ms)[0m  [1m[32mINSERT INTO "seats" ("row", "seat_number", "price", "_class", "show_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["row", "A"], ["seat_number", 1.0], ["price", 100.0], ["_class", "first"], ["show_id", 1], ["created_at", "2019-10-30 14:34:06.004266"], ["updated_at", "2019-10-30 14:34:06.004266"]]
+  [1m[35m (6.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMovie Create (0.8ms)[0m  [1m[32mINSERT INTO "movies" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Test Movie"], ["description", "Test Description"], ["created_at", "2019-10-30 14:34:06.018781"], ["updated_at", "2019-10-30 14:34:06.018781"]]
+  [1m[35m (7.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTheater Create (0.8ms)[0m  [1m[32mINSERT INTO "theaters" ("name", "description", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Theater"], ["description", "Test Description"], ["address", "Test Address"], ["created_at", "2019-10-30 14:47:05.853258"], ["updated_at", "2019-10-30 14:47:05.853258"]]
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mShow Create (0.7ms)[0m  [1m[32mINSERT INTO "shows" ("name", "show_time", "theater_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Show"], ["show_time", "2019-10-30 14:47:05.877298"], ["theater_id", 2], ["created_at", "2019-10-30 14:47:05.889668"], ["updated_at", "2019-10-30 14:47:05.889668"]]
+  [1m[35m (6.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSeat Create (0.9ms)[0m  [1m[32mINSERT INTO "seats" ("row", "seat_number", "price", "_class", "show_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["row", "A"], ["seat_number", 1.0], ["price", 100.0], ["_class", "first"], ["show_id", 2], ["created_at", "2019-10-30 14:47:05.906821"], ["updated_at", "2019-10-30 14:47:05.906821"]]
+  [1m[35m (7.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMovie Create (0.7ms)[0m  [1m[32mINSERT INTO "movies" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Test Movie"], ["description", "Test Description"], ["created_at", "2019-10-30 14:47:05.921795"], ["updated_at", "2019-10-30 14:47:05.921795"]]
+  [1m[35m (6.2ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/book" for 127.0.0.1 at 2019-10-30 20:17:43 +0530
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+Completed 404 Not Found in 11ms (ActiveRecord: 0.7ms | Allocations: 2649)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Seat without an ID):
+  
+app/controllers/book_controller.rb:7:in `index'
+Started GET "/book" for 127.0.0.1 at 2019-10-30 20:18:28 +0530
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 197)
+
+
+Started GET "/book/1" for 127.0.0.1 at 2019-10-30 20:18:34 +0530
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for BookController):
+  
+actionpack (6.0.0) lib/abstract_controller/base.rb:131:in `process'
+actionpack (6.0.0) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.0) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+activerecord (6.0.0) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.0) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-30 20:19:51 +0530
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 200 OK in 26ms (Views: 7.3ms | ActiveRecord: 1.0ms | Allocations: 8581)
+
+
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-30 20:20:16 +0530
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.3ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 200 OK in 30ms (Views: 8.8ms | ActiveRecord: 1.5ms | Allocations: 8581)
+
+
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-30 20:22:01 +0530
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/book_controller.rb:13:in `index'
+  [1m[36mShow Load (0.1ms)[0m  [1m[34mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:13:in `index'
+  [1m[36mSeat Update (0.6ms)[0m  [1m[33mUPDATE "seats" SET "status" = ?, "updated_at" = ? WHERE "seats"."id" = ?[0m  [["status", "BOOKED"], ["updated_at", "2019-10-30 14:52:01.181652"], ["id", 1]]
+  ↳ app/controllers/book_controller.rb:13:in `index'
+  [1m[35m (65.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/book_controller.rb:13:in `index'
+Completed 200 OK in 120ms (Views: 0.2ms | ActiveRecord: 68.1ms | Allocations: 19601)
+
+
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-30 20:22:11 +0530
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.1ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 628)
+
+
+Started GET "/book?seat_id=2" for 127.0.0.1 at 2019-10-30 20:22:16 +0530
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"2"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/book_controller.rb:13:in `index'
+  [1m[36mShow Load (0.2ms)[0m  [1m[34mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:13:in `index'
+  [1m[36mSeat Update (0.6ms)[0m  [1m[33mUPDATE "seats" SET "status" = ?, "updated_at" = ? WHERE "seats"."id" = ?[0m  [["status", "BOOKED"], ["updated_at", "2019-10-30 14:52:16.285636"], ["id", 2]]
+  ↳ app/controllers/book_controller.rb:13:in `index'
+  [1m[35m (5.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/book_controller.rb:13:in `index'
+Completed 200 OK in 18ms (Views: 0.2ms | ActiveRecord: 6.6ms | Allocations: 3790)
+
+
+Started GET "/book?seat_id=2" for 127.0.0.1 at 2019-10-30 20:22:24 +0530
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"2"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 614)
+
+
+Started GET "/book?seat_id=2" for 127.0.0.1 at 2019-10-30 20:24:01 +0530
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"2"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 200 OK in 18ms (Views: 0.2ms | ActiveRecord: 1.5ms | Allocations: 8593)
+
+
+Started GET "/book?seat_id=3" for 127.0.0.1 at 2019-10-30 20:24:44 +0530
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"3"}
+  [1m[36mSeat Load (0.1ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms | Allocations: 601)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Seat with 'id'=3):
+  
+app/controllers/book_controller.rb:5:in `index'
+Started GET "/book?seat_id=2" for 127.0.0.1 at 2019-10-30 20:27:20 +0530
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"2"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 404 Not Found in 16ms (ActiveRecord: 1.2ms | Allocations: 3415)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Seat with 'id'={:id=>"2"}):
+  
+app/controllers/book_controller.rb:5:in `index'
+Started GET "/book?seat_id=2" for 127.0.0.1 at 2019-10-30 20:28:27 +0530
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"2"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 200 OK in 26ms (Views: 0.2ms | ActiveRecord: 1.2ms | Allocations: 8606)
+
+
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-30 20:28:32 +0530
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.1ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.1ms | Allocations: 638)
+
+
+Started GET "/book?seat_id=2" for 127.0.0.1 at 2019-10-30 20:28:35 +0530
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"2"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 638)
+
+
+Started GET "/book?seat_id=3" for 127.0.0.1 at 2019-10-30 20:28:38 +0530
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"3"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 623)
+
+
+Started GET "/book?seat_id=2" for 127.0.0.1 at 2019-10-31 12:24:23 +0530
+  [1m[35m (7.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"2"}
+  [1m[36mSeat Load (0.3ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/book_controller.rb:14:in `index'
+  [1m[36mShow Load (0.1ms)[0m  [1m[34mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:14:in `index'
+  [1m[36mSeat Update (0.6ms)[0m  [1m[33mUPDATE "seats" SET "status" = ?, "updated_at" = ? WHERE "seats"."id" = ?[0m  [["status", "BOOKED"], ["updated_at", "2019-10-31 06:54:24.369741"], ["id", 2]]
+  ↳ app/controllers/book_controller.rb:14:in `index'
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/book_controller.rb:14:in `index'
+Completed 500 Internal Server Error in 10120ms (ActiveRecord: 8.4ms | Allocations: 20012)
+
+
+  
+Redis::CannotConnectError (Error connecting to Redis on 127.0.0.1:6379 (Redis::TimeoutError)):
+  
+app/controllers/book_controller.rb:18:in `index'
+Started GET "/favicon.ico" for 127.0.0.1 at 2019-10-31 12:24:35 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-31 12:38:16 +0530
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 500 Internal Server Error in 10027ms (ActiveRecord: 1.2ms | Allocations: 9028)
+
+
+  
+Redis::CannotConnectError (Error connecting to Redis on 127.0.0.1:6379 (Redis::TimeoutError)):
+  
+app/controllers/book_controller.rb:20:in `index'
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-31 12:59:16 +0530
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 500 Internal Server Error in 10025ms (ActiveRecord: 1.4ms | Allocations: 8991)
+
+
+  
+Redis::CannotConnectError (Error connecting to Redis on 85.25.11.9:2872 (Redis::TimeoutError)):
+  
+app/controllers/book_controller.rb:19:in `index'
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-31 13:00:49 +0530
+  [1m[35m (3.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 500 Internal Server Error in 10029ms (ActiveRecord: 1.9ms | Allocations: 8991)
+
+
+  
+Redis::CannotConnectError (Error connecting to Redis on 85.25.11.9:2872 (Redis::TimeoutError)):
+  
+app/controllers/book_controller.rb:19:in `index'
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-31 13:04:29 +0530
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 200 OK in 657ms (Views: 0.3ms | ActiveRecord: 1.9ms | Allocations: 9106)
+
+
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-31 13:06:48 +0530
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 200 OK in 663ms (Views: 0.2ms | ActiveRecord: 1.1ms | Allocations: 9130)
+
+
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-31 13:16:32 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 200 OK in 644ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 989)
+
+
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-31 13:19:04 +0530
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.3ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 500 Internal Server Error in 333ms (ActiveRecord: 1.2ms | Allocations: 8988)
+
+
+  
+Redis::CommandError (ERR max number of clients reached):
+  
+app/controllers/book_controller.rb:19:in `index'
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-31 13:54:07 +0530
+  [1m[35m (11.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 500 Internal Server Error in 4562ms (ActiveRecord: 1.4ms | Allocations: 8935)
+
+
+  
+Redis::CannotConnectError (Error connecting to Redis on locahost:6379 (SocketError)):
+  
+app/controllers/book_controller.rb:19:in `index'
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-31 13:55:31 +0530
+  [1m[35m (3.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 200 OK in 22ms (Views: 0.2ms | ActiveRecord: 1.1ms | Allocations: 9122)
+
+
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-31 13:56:13 +0530
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 804)
+
+
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-31 14:03:13 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.3ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 500 Internal Server Error in 10007ms (ActiveRecord: 0.3ms | Allocations: 948)
+
+
+  
+Redis::CannotConnectError (Error connecting to Redis on 127.0.0.1:6379 (Redis::TimeoutError)):
+  
+app/controllers/book_controller.rb:19:in `index'
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-31 14:04:06 +0530
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.3ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 894)
+
+
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-31 14:04:35 +0530
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 803)
+
+
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-31 14:06:10 +0530
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 787)
+
+
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-31 14:07:28 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 200 OK in 16ms (Views: 0.2ms | ActiveRecord: 1.5ms | Allocations: 7587)
+
+
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-31 14:17:41 +0530
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.7ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+  [1m[36mShow Load (0.2ms)[0m  [1m[34mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+Completed 500 Internal Server Error in 104ms (ActiveRecord: 2.5ms | Allocations: 19496)
+
+
+  
+NoMethodError (undefined method `theater' for #<Seat:0x000000000799d278>):
+  
+app/controllers/book_controller.rb:19:in `index'
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-31 14:19:03 +0530
+  [1m[35m (2.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.3ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+  [1m[36mShow Load (0.2ms)[0m  [1m[34mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+  [1m[36mTheater Load (0.2ms)[0m  [1m[34mSELECT "theaters".* FROM "theaters" WHERE "theaters"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+Completed 200 OK in 70ms (Views: 0.2ms | ActiveRecord: 3.1ms | Allocations: 23160)
+
+
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-31 14:24:32 +0530
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+  [1m[36mShow Load (0.2ms)[0m  [1m[34mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+  [1m[36mTheater Load (0.7ms)[0m  [1m[34mSELECT "theaters".* FROM "theaters" WHERE "theaters"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+Completed 200 OK in 42ms (Views: 0.1ms | ActiveRecord: 3.4ms | Allocations: 18562)
+
+
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-31 15:10:58 +0530
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+  [1m[36mShow Load (0.9ms)[0m  [1m[34mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+  [1m[36mTheater Load (0.2ms)[0m  [1m[34mSELECT "theaters".* FROM "theaters" WHERE "theaters"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 1.4ms | Allocations: 2170)
+
+
+  [1m[35m (6.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (8.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateTheaters (20191030132407)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "theaters" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "address" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191030132407"]]
+  [1m[35m (7.3ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateMovies (20191030134136)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "movies" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "theater_id" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_movies_on_theater_id" ON "movies" ("theater_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191030134136"]]
+  [1m[35m (8.2ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateShows (20191030134542)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "shows" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "show_time" datetime, "theater_id" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_shows_on_theater_id" ON "shows" ("theater_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191030134542"]]
+  [1m[35m (7.8ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateSeats (20191030141101)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "seats" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "row" varchar, "seat_number" decimal, "price" decimal, "_class" varchar, "status" varchar, "show_id" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_seats_on_show_id" ON "seats" ("show_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191030141101"]]
+  [1m[35m (7.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTheater Create (0.8ms)[0m  [1m[32mINSERT INTO "theaters" ("name", "description", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Theater"], ["description", "Test Description"], ["address", "Test Address"], ["created_at", "2019-10-31 09:50:21.105457"], ["updated_at", "2019-10-31 09:50:21.105457"]]
+  [1m[35m (8.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mShow Create (0.8ms)[0m  [1m[32mINSERT INTO "shows" ("name", "show_time", "theater_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Show"], ["show_time", "2019-10-31 09:50:21.156736"], ["theater_id", 1], ["created_at", "2019-10-31 09:50:21.184279"], ["updated_at", "2019-10-31 09:50:21.184279"]]
+  [1m[35m (7.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE "movies"."theater_id" = ? LIMIT ?[0m  [["theater_id", 1], ["LIMIT", 1]]
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTheater Create (0.8ms)[0m  [1m[32mINSERT INTO "theaters" ("name", "description", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Theater"], ["description", "Test Description"], ["address", "Test Address"], ["created_at", "2019-10-31 09:51:28.762104"], ["updated_at", "2019-10-31 09:51:28.762104"]]
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mShow Create (0.7ms)[0m  [1m[32mINSERT INTO "shows" ("name", "show_time", "theater_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Show"], ["show_time", "2019-10-31 09:51:28.788186"], ["theater_id", 2], ["created_at", "2019-10-31 09:51:28.803011"], ["updated_at", "2019-10-31 09:51:28.803011"]]
+  [1m[35m (7.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE "movies"."theater_id" = ? LIMIT ?[0m  [["theater_id", 2], ["LIMIT", 1]]
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTheater Create (0.8ms)[0m  [1m[32mINSERT INTO "theaters" ("name", "description", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Theater"], ["description", "Test Description"], ["address", "Test Address"], ["created_at", "2019-10-31 10:01:39.010821"], ["updated_at", "2019-10-31 10:01:39.010821"]]
+  [1m[35m (6.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mShow Create (0.7ms)[0m  [1m[32mINSERT INTO "shows" ("name", "show_time", "theater_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Show"], ["show_time", "2019-10-31 10:01:39.035828"], ["theater_id", 3], ["created_at", "2019-10-31 10:01:39.050052"], ["updated_at", "2019-10-31 10:01:39.050052"]]
+  [1m[35m (6.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSeat Create (0.7ms)[0m  [1m[32mINSERT INTO "seats" ("row", "seat_number", "price", "_class", "show_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["row", "A"], ["seat_number", 1.0], ["price", 100.0], ["_class", "first"], ["show_id", 3], ["created_at", "2019-10-31 10:01:39.114399"], ["updated_at", "2019-10-31 10:01:39.114399"]]
+  [1m[35m (6.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTheater Create (0.7ms)[0m  [1m[32mINSERT INTO "theaters" ("name", "description", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Theater"], ["description", "Test Description"], ["address", "Test Address"], ["created_at", "2019-10-31 10:02:38.426337"], ["updated_at", "2019-10-31 10:02:38.426337"]]
+  [1m[35m (7.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mShow Create (0.8ms)[0m  [1m[32mINSERT INTO "shows" ("name", "show_time", "theater_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Show"], ["show_time", "2019-10-31 10:02:38.451874"], ["theater_id", 4], ["created_at", "2019-10-31 10:02:38.467899"], ["updated_at", "2019-10-31 10:02:38.467899"]]
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSeat Create (0.8ms)[0m  [1m[32mINSERT INTO "seats" ("row", "seat_number", "price", "_class", "show_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["row", "A"], ["seat_number", 1.0], ["price", 100.0], ["_class", "first"], ["show_id", 4], ["created_at", "2019-10-31 10:02:38.510623"], ["updated_at", "2019-10-31 10:02:38.510623"]]
+  [1m[35m (7.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTheater Create (0.8ms)[0m  [1m[32mINSERT INTO "theaters" ("name", "description", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Theater"], ["description", "Test Description"], ["address", "Test Address"], ["created_at", "2019-10-31 10:04:03.155808"], ["updated_at", "2019-10-31 10:04:03.155808"]]
+  [1m[35m (8.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mShow Create (0.8ms)[0m  [1m[32mINSERT INTO "shows" ("name", "show_time", "theater_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Show"], ["show_time", "2019-10-31 10:04:03.183046"], ["theater_id", 5], ["created_at", "2019-10-31 10:04:03.198043"], ["updated_at", "2019-10-31 10:04:03.198043"]]
+  [1m[35m (7.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSeat Create (0.7ms)[0m  [1m[32mINSERT INTO "seats" ("row", "seat_number", "price", "_class", "show_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["row", "A"], ["seat_number", 1.0], ["price", 100.0], ["_class", "first"], ["show_id", 5], ["created_at", "2019-10-31 10:04:03.239844"], ["updated_at", "2019-10-31 10:04:03.239844"]]
+  [1m[35m (6.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTheater Create (0.7ms)[0m  [1m[32mINSERT INTO "theaters" ("name", "description", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Theater"], ["description", "Test Description"], ["address", "Test Address"], ["created_at", "2019-10-31 10:04:58.534806"], ["updated_at", "2019-10-31 10:04:58.534806"]]
+  [1m[35m (7.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mShow Create (0.8ms)[0m  [1m[32mINSERT INTO "shows" ("name", "show_time", "theater_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Show"], ["show_time", "2019-10-31 10:04:58.561084"], ["theater_id", 6], ["created_at", "2019-10-31 10:04:58.576170"], ["updated_at", "2019-10-31 10:04:58.576170"]]
+  [1m[35m (7.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMovie Create (0.7ms)[0m  [1m[32mINSERT INTO "movies" ("name", "description", "theater_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Movie"], ["description", "Test Description"], ["theater_id", 6], ["created_at", "2019-10-31 10:04:58.594958"], ["updated_at", "2019-10-31 10:04:58.594958"]]
+  [1m[35m (6.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSeat Create (0.8ms)[0m  [1m[32mINSERT INTO "seats" ("row", "seat_number", "price", "_class", "show_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["row", "A"], ["seat_number", 1.0], ["price", 100.0], ["_class", "first"], ["show_id", 6], ["created_at", "2019-10-31 10:04:58.617814"], ["updated_at", "2019-10-31 10:04:58.617814"]]
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTheater Create (0.9ms)[0m  [1m[32mINSERT INTO "theaters" ("name", "description", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Theater"], ["description", "Test Description"], ["address", "Test Address"], ["created_at", "2019-10-31 10:05:45.195091"], ["updated_at", "2019-10-31 10:05:45.195091"]]
+  [1m[35m (9.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mShow Create (0.8ms)[0m  [1m[32mINSERT INTO "shows" ("name", "show_time", "theater_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Show"], ["show_time", "2019-10-31 10:05:45.224343"], ["theater_id", 7], ["created_at", "2019-10-31 10:05:45.239443"], ["updated_at", "2019-10-31 10:05:45.239443"]]
+  [1m[35m (6.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMovie Create (0.7ms)[0m  [1m[32mINSERT INTO "movies" ("name", "description", "theater_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Movie"], ["description", "Test Description"], ["theater_id", 7], ["created_at", "2019-10-31 10:05:45.257664"], ["updated_at", "2019-10-31 10:05:45.257664"]]
+  [1m[35m (7.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSeat Create (0.7ms)[0m  [1m[32mINSERT INTO "seats" ("row", "seat_number", "price", "_class", "show_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["row", "A"], ["seat_number", 1.0], ["price", 100.0], ["_class", "first"], ["show_id", 7], ["created_at", "2019-10-31 10:05:45.281592"], ["updated_at", "2019-10-31 10:05:45.281592"]]
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-31 15:36:43 +0530
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 200 OK in 16ms (Views: 0.2ms | ActiveRecord: 0.6ms | Allocations: 3131)
+
+
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-31 15:37:13 +0530
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.1ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.1ms | Allocations: 620)
+
+
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-31 15:42:03 +0530
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 620)
+
+
+Started GET "/book?seat_id=1" for 127.0.0.1 at 2019-10-31 15:43:06 +0530
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"1"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 605)
+
+
+Started GET "/book?seat_id=2" for 127.0.0.1 at 2019-10-31 15:43:22 +0530
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"2"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+  [1m[36mShow Load (0.2ms)[0m  [1m[34mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+  [1m[36mTheater Load (0.2ms)[0m  [1m[34mSELECT "theaters".* FROM "theaters" WHERE "theaters"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE "movies"."theater_id" = ? LIMIT ?[0m  [["theater_id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+Completed 500 Internal Server Error in 64ms (ActiveRecord: 3.4ms | Allocations: 22714)
+
+
+  
+NoMethodError (undefined method `name' for nil:NilClass):
+  
+app/controllers/book_controller.rb:19:in `index'
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTheater Create (0.8ms)[0m  [1m[32mINSERT INTO "theaters" ("name", "description", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Theater"], ["description", "Test Description"], ["address", "Test Address"], ["created_at", "2019-10-31 10:15:12.070453"], ["updated_at", "2019-10-31 10:15:12.070453"]]
+  [1m[35m (7.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mShow Create (0.8ms)[0m  [1m[32mINSERT INTO "shows" ("name", "show_time", "theater_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Show"], ["show_time", "2019-10-31 10:15:12.098067"], ["theater_id", 8], ["created_at", "2019-10-31 10:15:12.113198"], ["updated_at", "2019-10-31 10:15:12.113198"]]
+  [1m[35m (7.1ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/book?seat_id=2" for 127.0.0.1 at 2019-10-31 15:45:54 +0530
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"2"}
+  [1m[36mSeat Load (0.3ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+  [1m[36mShow Load (0.3ms)[0m  [1m[34mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+  [1m[36mTheater Load (0.2ms)[0m  [1m[34mSELECT "theaters".* FROM "theaters" WHERE "theaters"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE "movies"."theater_id" = ? LIMIT ?[0m  [["theater_id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+Completed 500 Internal Server Error in 78ms (ActiveRecord: 4.2ms | Allocations: 25184)
+
+
+  
+NoMethodError (undefined method `name' for nil:NilClass):
+  
+app/controllers/book_controller.rb:19:in `index'
+Started GET "/book?seat_id=2" for 127.0.0.1 at 2019-10-31 15:46:33 +0530
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"2"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+  [1m[36mShow Load (0.2ms)[0m  [1m[34mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+  [1m[36mTheater Load (0.2ms)[0m  [1m[34mSELECT "theaters".* FROM "theaters" WHERE "theaters"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+Completed 200 OK in 66ms (Views: 0.1ms | ActiveRecord: 2.9ms | Allocations: 23176)
+
+
+Started GET "/book?seat_id=2" for 127.0.0.1 at 2019-10-31 15:49:47 +0530
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"2"}
+  [1m[36mSeat Load (0.3ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+  [1m[36mShow Load (0.4ms)[0m  [1m[34mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+  [1m[36mTheater Load (0.2ms)[0m  [1m[34mSELECT "theaters".* FROM "theaters" WHERE "theaters"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE "movies"."theater_id" = ? LIMIT ?[0m  [["theater_id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+Completed 500 Internal Server Error in 87ms (ActiveRecord: 5.6ms | Allocations: 25186)
+
+
+  
+NoMethodError (undefined method `name' for nil:NilClass):
+  
+app/controllers/book_controller.rb:19:in `index'
+Started GET "/book?seat_id=2" for 127.0.0.1 at 2019-10-31 15:55:47 +0530
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"2"}
+  [1m[36mSeat Load (1.0ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+  [1m[36mShow Load (0.1ms)[0m  [1m[34mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+  [1m[36mTheater Load (0.2ms)[0m  [1m[34mSELECT "theaters".* FROM "theaters" WHERE "theaters"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+Completed 500 Internal Server Error in 214ms (ActiveRecord: 4.7ms | Allocations: 61931)
+
+
+  
+NoMethodError (undefined method `put' for #<BookController:0x0000000007676f90>
+Did you mean?  putc
+               puts):
+  
+app/controllers/book_controller.rb:19:in `index'
+Started GET "/book?seat_id=2" for 127.0.0.1 at 2019-10-31 15:56:29 +0530
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"2"}
+  [1m[36mSeat Load (0.3ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+  [1m[36mShow Load (0.2ms)[0m  [1m[34mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+  [1m[36mTheater Load (0.2ms)[0m  [1m[34mSELECT "theaters".* FROM "theaters" WHERE "theaters"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE "movies"."theater_id" = ? LIMIT ?[0m  [["theater_id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:20:in `index'
+Completed 500 Internal Server Error in 81ms (ActiveRecord: 4.3ms | Allocations: 25192)
+
+
+  
+NoMethodError (undefined method `name' for nil:NilClass):
+  
+app/controllers/book_controller.rb:20:in `index'
+Started GET "/book?seat_id=2" for 127.0.0.1 at 2019-10-31 15:56:59 +0530
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"2"}
+  [1m[36mSeat Load (0.3ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+  [1m[36mShow Load (0.2ms)[0m  [1m[34mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+  [1m[36mTheater Load (0.2ms)[0m  [1m[34mSELECT "theaters".* FROM "theaters" WHERE "theaters"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE "movies"."theater_id" = ? LIMIT ?[0m  [["theater_id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:20:in `index'
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.8ms | Allocations: 2995)
+
+
+  
+NoMethodError (undefined method `name' for nil:NilClass):
+  
+app/controllers/book_controller.rb:20:in `index'
+Started GET "/book?seat_id=2" for 127.0.0.1 at 2019-10-31 15:58:02 +0530
+Processing by BookController#index as HTML
+  Parameters: {"seat_id"=>"2"}
+  [1m[36mSeat Load (0.2ms)[0m  [1m[34mSELECT "seats".* FROM "seats" WHERE "seats"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:5:in `index'
+  [1m[36mShow Load (0.3ms)[0m  [1m[34mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+  [1m[36mTheater Load (0.2ms)[0m  [1m[34mSELECT "theaters".* FROM "theaters" WHERE "theaters"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:19:in `index'
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE "movies"."theater_id" = ? LIMIT ?[0m  [["theater_id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:20:in `index'
+Completed 200 OK in 17ms (Views: 0.2ms | ActiveRecord: 1.3ms | Allocations: 6448)
+
+
+Started GET "/" for ::1 at 2019-11-04 10:46:03 +0530
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/chithravenkataraman/.rvm/gems/ruby-2.6.5/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/chithravenkataraman/.rvm/gems/ruby-2.6.5/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.6ms | Allocations: 475)
+Completed 200 OK in 15ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 2663)
+
+
+Started GET "/" for ::1 at 2019-11-04 10:47:14 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/chithravenkataraman/.rvm/gems/ruby-2.6.5/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/chithravenkataraman/.rvm/gems/ruby-2.6.5/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.4ms | Allocations: 185)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 748)
+
+
+Started GET "//book" for ::1 at 2019-11-04 10:47:15 +0530
+Processing by BookController#index as HTML
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 188)
+
+
+Started GET "/favicon.ico" for ::1 at 2019-11-04 10:47:16 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
